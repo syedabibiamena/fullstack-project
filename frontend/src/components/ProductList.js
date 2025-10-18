@@ -4,7 +4,7 @@ import "./ProductList.css";
 
 const ProductList = () => {
   const { data: products, loading, error } = useFetch(
-    "http://localhost:4000/api/products"
+    "https://fullstack-project-b7hj.onrender.com/api/products"
   );
 
   const [showLoading, setShowLoading] = useState(true);
@@ -15,10 +15,10 @@ const ProductList = () => {
       setShowLoading(false);
     }, 1000);
 
-    return () => clearTimeout(timer); // cleanup
+    return () => clearTimeout(timer); 
   }, []);
 
-  // Force show loading for 10 seconds
+  
   if (showLoading || loading) {
     return <p style={{ textAlign: "center", marginTop: "2rem" }}>Loading...</p>;
   }
