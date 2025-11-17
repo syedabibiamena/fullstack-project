@@ -1,4 +1,4 @@
-# Assignment 6 - Node Web Server
+# Assignment 5 - React Custom Hooks
 
 This project is a simple full-stack web application built using **Node.js**, **Express**, **React**, and **MongoDB**.  
 It includes two parts — a backend server (Node + Express) and a frontend (React) that interact with each other through API calls.  
