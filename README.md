@@ -30,7 +30,7 @@ This project helped me practice:
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/syedabibiamena/Assignment5-node-web-server.git
+git clone https://github.com/syedabibiamena/fullstack-project
 
 
 Step 2 Setup Backend
